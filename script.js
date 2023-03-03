@@ -1,3 +1,5 @@
+
+
 var isBlack = true;
 function test(){
     var x = document.getElementById("search").value;
@@ -95,8 +97,10 @@ function clear(){
     localStorage.clear();
     console.log("cleard");
 }
+
 function retrive(){
     fetch('./testJSON.json')
     .then((response) => response.json())
     .then((json) => console.log(json.title));
+
 }

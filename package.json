@@ -9,8 +9,5 @@
   },
   "devDependencies": {
     "vite": "^2.9.9"
-  },
-  "dependencies": {
-    "node": "^19.6.1"
   }
 }
