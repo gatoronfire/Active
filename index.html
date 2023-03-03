@@ -13,19 +13,31 @@
 
   <nav id="nav">
     <nav class="color" onclick="black()">
-      <li class="white"></li>
-      <li class="black"></li>
+      <li id="white"></li>
+      <li id="black"></li>
     </nav>
     <!-- <button onclick="black()" href="">change theme</button> -->
     <ul class="navlist">
-      <li class="link">Home</li>
-    <li class="link">About</li>
+      <a class="link" href="./index.html">Home</a>
+    <a class="link" href="./upload.html">Upload</a>
     <li class="link">FAQ</li>
     </ul>
-    
-    <li > <input id="search"type="text" onchange="test()"></li>
+    <section>
+      <input id="IMGLink" type="url"  placeholder="URL">
+      <input id="IMGDate" type="date"  placeholder="date">
+      <input id="IMGText" type="text"  placeholder="Text">
+      <button onclick="insert()">insert</button>
+      <button onclick="pull()" >pull</button>
+      <button onclick="retrive()">retrive</button>
+    </section>
+    <li > <input id="search" type="text" onchange="test()"></li>
   </nav>
-  <p id="test"></p>
+
+<ul class="cardHolder" id="cardHolder">
+</ul>
+
+
+
   
 <script src="./script.js"></script> 
 </body>

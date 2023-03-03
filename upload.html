@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav id="nav">
+        <nav class="color" onclick="black()">
+          <li id="white"></li>
+          <li id="black"></li>
+        </nav>
+        <!-- <button onclick="black()" href="">change theme</button> -->
+        <ul class="navlist">
+            <a class="link" href="./index.html">Home</a>
+            <a class="link" href="./upload.html">Upload</a>
+        <li class="link">FAQ</li>
+        </ul>
+        
+        <li > <input id="search" type="text" onchange="test()"></li>
+      </nav>
+    
+      <section>
+        <input id="IMGLink" type="url"  placeholder="URL">
+        <input id="IMGDate" type="date"  placeholder="date">
+        <input id="IMGText" type="text"  placeholder="Text">
+        <button onclick="insert()" >add</button>
+      </section>
+      <ul class="cardHolder" id="cardHolder"></ul>
+      
+      <script src="./script.js"></script> 
+</body>
+</html>
